@@ -1,7 +1,9 @@
 package audioflow.controllers;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -11,6 +13,8 @@ import java.util.ResourceBundle;
 
 public class AlbumController implements Initializable {
 
+    @FXML
+    Button debugButton;
 
     @FXML
     Label albumArtistLabel;
@@ -54,6 +58,9 @@ public class AlbumController implements Initializable {
         System.out.println("hello world");
     }
 
+    public void onDebugPress(ActionEvent event) {
+        System.out.println("debug");
+    }
 
 
 }

@@ -17,7 +17,7 @@ public class Main extends Application {
         System.out.println(url.getPath());
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Audioflow");
-        primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
 
