@@ -15,6 +15,16 @@ public class Album {
     private Boolean suppressAlbumArtist = null;
     private Boolean variousArtists      = null;
 
-    public Album() {}
+    public Album(String albumArtist,
+                 String albumComposer,
+                 String albumLabel,
+                 String albumTitle,
+                 Integer albumYear,
+                 String discLabel,
+                 Integer discNumber,
+                 Boolean suppressAlbumArtist,
+                 Boolean variousArtists) {
+
+    }
 
 }
